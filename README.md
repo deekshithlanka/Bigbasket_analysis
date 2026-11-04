@@ -1,5 +1,10 @@
-
 # Market Basket Analysis of Store Data
+
+## Executive Summary
+
+This project mines 7,500+ real transactions from a week of sales at a French retail store to uncover which products customers buy together. Using the Apriori algorithm, implemented in parallel with both the `apyori` and `mlxtend` libraries to cross-check results, it surfaces association rules ranked by support, confidence, and lift that can inform product placement, cross-promotions, and bundling. A companion SQL layer (`customer_analysis.sql`) segments customers into high, medium, and low value tiers by total purchase value.
+
+**Stack:** Python · pandas · apyori · mlxtend · SQL · Jupyter
 
 ## Dataset Description
 
